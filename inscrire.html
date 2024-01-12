@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>page d'inscription</title>
+        <link rel="stylesheet" href="inscrire.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        
+        <hr>
+
+        <div class="log-sign">
+
+        <form action="inscrire.php" method="POST" name="authentification">
+            <div class="box">
+                <div class="container">
+                    <div><i class='bx bx-right-arrow-alt icon'></i></div>
+                    <div class="box1">
+                        <p>Already have an account?</p>
+                        <h2>LOG IN HERE</h2>
+                    </div>
+                </div>
+                <p><input type="text" name="username-exist" id="username-exist" placeholder="Username"></p>
+                <p><input type="password" name="password-log" id="password-log" placeholder="Password"></p>
+                <p class="checkbox">
+                    <input type="checkbox" name="keep-log" id="keep-log">
+                    <label for="keep-log">Keep me logged in</label>
+                </p>
+                <input type="submit" value ="LOG IN" class="button">
+                <p>Forgot your password?</p>
+            </div>
+            </form>
+
+            <div class="box">
+                <div class="container">
+                    <div><i class='bx bx-plus icon'></i></div>
+                    <div class="box1">
+                        <p>Don't have an account?</p>
+                        <h2>REGISTER NOW</h2>
+                    </div>
+                </div>
+                <p><input type="text" name="username-not-exist" id="username-not-exist" placeholder="Username"></p>
+                <p><input type="password" name="password-register" id="password-register" placeholder="Password"></p>
+                <p><input type="password" name="password-register" id="password-register" placeholder="Confirm Password"></p>
+                <input type="submit" value ="LOG IN" class="button">
+            </div>
+
+        </div>
+
+    </body>
+</html>

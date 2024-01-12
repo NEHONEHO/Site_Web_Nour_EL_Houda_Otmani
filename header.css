@@ -1,0 +1,159 @@
+body{
+    font-family: cursive;
+    margin: auto;
+}
+
+section a {
+    text-decoration-line: none;
+}
+
+header hr{
+    /* z-index: 100;
+    position: fixed; */
+    margin-top: 0px;
+}
+
+#cart-icon{
+    margin-right: 5px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.cartAmount{
+    position: absolute;
+    top: 3px;
+    right: 220px;
+    color: white;
+    background-color: rgb(2, 39, 2);
+    padding: 1px 3px 1px 3px;
+    border-radius: 20px;
+}
+
+.header2{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: rgb(17, 77, 17);
+}
+
+.shop-name{
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    align-content: center;
+    text-shadow: 5px 5px 5px black;
+    text-align: center;
+
+}
+
+.input-recherche input{
+    margin-left: 20px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: white;
+    width: 500px;
+    background-color: rgb(17, 77, 17);
+    color: white;
+    font-family: cursive;
+    font-size: large;
+}
+
+.input-recherche{
+    display: flex;
+    margin-right: 70px;
+}
+
+.icon-button-connect button{
+    background-color: rgb(17, 77, 17);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: large;
+    font-family: cursive;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50px;
+}
+
+.icon-button-connect button:hover{
+    background-color: rgb(35, 167, 35);
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+}
+
+.icon-button-connect button:active{
+    box-shadow:0px 0px 0px;
+    transition: 0.8s;
+}
+
+.icon-button-connect{
+    display: flex;
+}
+
+.panier{
+    display: flex;
+}
+
+.panier button{
+    background-color: rgb(17, 77, 17);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: large;
+    font-family: cursive;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+}
+
+.panier button:hover{
+    background-color: rgb(35, 167, 35);
+    box-shadow: 5px 5px 5px black;
+}
+
+.panier button:active{
+    box-shadow:0px 0px 0px;
+    transition: 0.8s;
+}
+
+.section-0 ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.section-0 li{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    list-style: none;
+}
+
+.section-0 a{
+    color:  rgb(17, 77, 17);
+    font-weight: 700;
+}
+
+.section-0 li:hover{
+    background-color: rgb(17, 77, 17);
+    color: white;
+    box-shadow: 5px 5px 5px;
+    transition-duration: 0.5s;
+}
+
+.section-0 a:hover{
+    color: white;
+}
+
+.section-0 a{
+    text-decoration-line: none;
+}
